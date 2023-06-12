@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.box{
+    text-align: center;
+    margin-top: 250px;
+}
+#name{
+    width: 314px;
+    height: 30px;
+}
+#email{
+    width: 314px;
+    height: 30px;
+}
+.text{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 555px;
+}
+#btn{
+    width: 314px;
+    height: 25px;
+    border: 1px solid rgb(0, 132, 255);
+    border-radius: 4px;
+    background-color: rgb(0, 132, 255);
+    color: #fff;
+    
+}
+
+@media (max-width: 567px)  {
+    .text{
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 760px)  {
+    .text{
+        margin-left: 50px;
+    }
+}
+
